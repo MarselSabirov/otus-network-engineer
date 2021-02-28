@@ -63,7 +63,7 @@ VLAN | Интерфейс
   * Команда login нужна для включения функции проверки пароля
 
 ### 3.1
-   * [Конфигурация S1] (https://github.com/MarselSabirov/otus-network-engineer/blob/main/labs/lab1/S1_configuration.txt)
+   * [Конфигурация S1](https://github.com/MarselSabirov/otus-network-engineer/blob/main/labs/lab1/S1_configuration.txt)
 ### 3.1.b:
   * MTU 1500 bytes, BW 100000 Kbit, DLY 1000000 usec, reliability 255/255, txload 1/255, rxload 1/255
   * В состоянии UP
