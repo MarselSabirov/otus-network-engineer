@@ -66,6 +66,10 @@ VLAN | Интерфейс
   * MTU 1500 bytes, BW 100000 Kbit, DLY 1000000 usec, reliability 255/255, txload 1/255, rxload 1/255
   * В состоянии UP
   * В состоянии DOWN
+### 3.2
+  * Скриншот эхо-запроса с PC-A до S1 (192.168.1.2)
+![ping_from_pc_to_switch (2)](https://user-images.githubusercontent.com/18709313/109425683-1ec1dc80-79f2-11eb-8395-1a3842252a1f.png)
+
 
 ### 4.1: 
   * Физический адрес - 0003.E497.0643
