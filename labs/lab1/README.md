@@ -215,3 +215,5 @@ line vty 5 15
 !
 end
 ```
+
+### [Ссылка](https://github.com/MarselSabirov/otus-network-engineer/blob/main/labs/lab1/lab1.pkt) на файл проекта Cisco Packet Tracer
