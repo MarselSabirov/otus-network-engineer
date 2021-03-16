@@ -30,18 +30,18 @@ VLAN | Интерфейс
   * *show flash*
   * *erase startup-config*
   * *reload*
-  * *enable"
-  * *configure terminal
-  * *no ip domain-lookup
-  * *host S1
-  * *service password-encryption
-  * *enable secret class
-  * *banner motd #
-     Unauthorized access is strictly prohibited. # 
-  * *line con 0
-    * *logging synchronous
-    * *password cisco
-    * *login
-  * *exit
+  * *enable*
+  * *configure terminal*
+  * *no ip domain-lookup*
+  * *host S1*
+  * *service password-encryption*
+  * *enable secret class*
+  * *banner motd #*
+     *Unauthorized access is strictly prohibited. #* 
+  * *line con 0*
+    * *logging synchronous*
+    * *password cisco*
+    * *login*
+  * *exit*
   
 
