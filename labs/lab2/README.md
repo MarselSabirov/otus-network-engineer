@@ -76,3 +76,11 @@ VLAN | Интерфейс
        ![2_1_mac_S2](https://user-images.githubusercontent.com/18709313/111383699-f4714f80-867e-11eb-84e0-ceeaa60754b8.png)
 
   * *в. Просмотрите таблицу МАС-адресов коммутатора.*
+       *Подключитесь к коммутатору S2 через консоль и просмотрите таблицу МАС-адресов до и после тестирования сетевой связи с помощью эхо-запросов.*
+       *До ping-запроса:*
+       ![2_1_show_mac_table_before_ping](https://user-images.githubusercontent.com/18709313/111385307-f9370300-8680-11eb-9130-5bf3494df2b4.png)
+
+       *После отправки ping-запроса:*
+       ![2_1_show_mac_table_after_ping](https://user-images.githubusercontent.com/18709313/111385325-fe944d80-8680-11eb-8126-1852df7274cd.png)
+
+       
