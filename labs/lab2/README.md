@@ -62,11 +62,9 @@ VLAN | Интерфейс
 #### Шаг 1. Запишите МАС-адреса сетевых устройств.
   * *a. Откройте командную строку на PC-A и PC-B и введите команду ipconfig /all.*
    *Назовите физические адреса адаптера Ethernet.*
-   *MAC-адрес компьютера PC-A:*
-   
-   ![2_1_mac_pcA](https://user-images.githubusercontent.com/18709313/111381589-4795d300-867c-11eb-8b78-5d6c9184dde7.png)
+   *MAC-адрес компьютера PC-A:*   
+       ![2_1_mac_pcA](https://user-images.githubusercontent.com/18709313/111381589-4795d300-867c-11eb-8b78-5d6c9184dde7.png)
 
-   *MAC-адрес компьютера PC-B:*
-   
-   ![2_1_mac_pcB](https://user-images.githubusercontent.com/18709313/111381599-4bc1f080-867c-11eb-8a5a-b3901331ec2b.png)
+   *MAC-адрес компьютера PC-B:*   
+       ![2_1_mac_pcB](https://user-images.githubusercontent.com/18709313/111381599-4bc1f080-867c-11eb-8a5a-b3901331ec2b.png)
 
