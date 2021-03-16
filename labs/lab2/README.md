@@ -44,8 +44,8 @@ VLAN | Интерфейс
     * *login*
   * *exit*
   * *line vty 0 4*
-    *password cisco*
-    *login*
+    * *password cisco*
+    * *login*
   
 #### Шаг 4. Настройте базовые параметры каждого коммутатора. 
   *  *a. Настройте имена устройств в соответствии с топологией.* - configure terminal; host S1
