@@ -70,19 +70,19 @@ VLAN | Интерфейс
 
   * *б. Подключитесь к коммутаторам S1 и S2 через консоль и введите команду show interface F0/1 на каждом коммутаторе.*
        *МАС-адрес коммутатора S1 Fast Ethernet 0/1:* - bia 0040.0bba.3c01
-       ![2_1_mac_S1](https://user-images.githubusercontent.com/18709313/111383683-f0453200-867e-11eb-9a56-14d0978817af.png)
+           ![2_1_mac_S1](https://user-images.githubusercontent.com/18709313/111383683-f0453200-867e-11eb-9a56-14d0978817af.png)
 
        *МАС-адрес коммутатора S2 Fast Ethernet 0/1:* - bia 0030.a376.5301
-       ![2_1_mac_S2](https://user-images.githubusercontent.com/18709313/111383699-f4714f80-867e-11eb-84e0-ceeaa60754b8.png)
+           ![2_1_mac_S2](https://user-images.githubusercontent.com/18709313/111383699-f4714f80-867e-11eb-84e0-ceeaa60754b8.png)
 
   * *в. Просмотрите таблицу МАС-адресов коммутатора.*
      *Подключитесь к коммутатору S2 через консоль и просмотрите таблицу МАС-адресов до и после тестирования сетевой связи с помощью эхо-запросов.*
        
-       *До ping-запроса:*
-       ![2_1_show_mac_table_before_ping](https://user-images.githubusercontent.com/18709313/111385307-f9370300-8680-11eb-9130-5bf3494df2b4.png)
+       *До ping-запроса:*       
+          ![2_1_show_mac_table_before_ping](https://user-images.githubusercontent.com/18709313/111385307-f9370300-8680-11eb-9130-5bf3494df2b4.png)
 
-       *После отправки ping-запроса:*
-       ![2_1_show_mac_table_after_ping](https://user-images.githubusercontent.com/18709313/111385325-fe944d80-8680-11eb-8126-1852df7274cd.png)
+       *После отправки ping-запроса:*       
+          ![2_1_show_mac_table_after_ping](https://user-images.githubusercontent.com/18709313/111385325-fe944d80-8680-11eb-8126-1852df7274cd.png)
 
        *Если вы не записали МАС-адреса сетевых устройств в шаге 1, как можно определить, каким устройствам принадлежат МАС-адреса, используя только выходные данные команды show mac address-table? Работает ли это решение в любой ситуации?* 
         Какому устройству какой MAC-адрес пренадлежит можно по наименованию подключенного порта. Данное решение сработает только в случае наличии физического соединения между устройствами(в данном случае Switch S1 и PC PC-A)
