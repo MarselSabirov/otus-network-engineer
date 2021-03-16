@@ -61,10 +61,17 @@ VLAN | Интерфейс
 ### Часть 2. Изучение таблицы МАС-адресов коммутатора
 #### Шаг 1. Запишите МАС-адреса сетевых устройств.
   * *a. Откройте командную строку на PC-A и PC-B и введите команду ipconfig /all.*
-   *Назовите физические адреса адаптера Ethernet.*
-   *MAC-адрес компьютера PC-A:*   
-        ![2_1_mac_pcA](https://user-images.githubusercontent.com/18709313/111381589-4795d300-867c-11eb-8b78-5d6c9184dde7.png)
+       *Назовите физические адреса адаптера Ethernet.*
+       *MAC-адрес компьютера PC-A:* - 0002.16B4.1272   
+           ![2_1_mac_pcA](https://user-images.githubusercontent.com/18709313/111381589-4795d300-867c-11eb-8b78-5d6c9184dde7.png)
+            
+       *MAC-адрес компьютера PC-B:* - 000D.BD04.2C45   
+           ![2_1_mac_pcB](https://user-images.githubusercontent.com/18709313/111381599-4bc1f080-867c-11eb-8a5a-b3901331ec2b.png)
 
-   *MAC-адрес компьютера PC-B:*   
-        ![2_1_mac_pcB](https://user-images.githubusercontent.com/18709313/111381599-4bc1f080-867c-11eb-8a5a-b3901331ec2b.png)
+  * *б. Подключитесь к коммутаторам S1 и S2 через консоль и введите команду show interface F0/1 на каждом коммутаторе.*
+       *МАС-адрес коммутатора S1 Fast Ethernet 0/1:* - bia 0040.0bba.3c01
+       ![2_1_mac_S1](https://user-images.githubusercontent.com/18709313/111383683-f0453200-867e-11eb-9a56-14d0978817af.png)
+
+       *МАС-адрес коммутатора S2 Fast Ethernet 0/1:* - bia 0030.a376.5301
+       ![2_1_mac_S2](https://user-images.githubusercontent.com/18709313/111383699-f4714f80-867e-11eb-84e0-ceeaa60754b8.png)
 
