@@ -77,4 +77,7 @@ PC-B | NIC | 2001:db8:acad:a::3 | 64 | fe80::1
   ![2_a_b_switch](https://user-images.githubusercontent.com/18709313/112732602-50569680-8f11-11eb-94c1-2aa3c0d6a453.png)
 ![2_a_b_switch](https://user-images.githubusercontent.com/18709313/112732651-9ad81300-8f11-11eb-9b96-c2e9332d0b1c.png)
 
+##### *c. Чтобы обеспечить соответствие локальных адресов канала индивидуальному адресу, вручную введите локальные адреса канала на каждом интерфейсе Ethernet на R1.*
+![2_a_c_router](https://user-images.githubusercontent.com/18709313/112732833-bf80ba80-8f12-11eb-8e5f-f6bf4a1e1f78.png)
+
 
