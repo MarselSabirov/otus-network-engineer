@@ -17,3 +17,46 @@ PC-B | NIC | 2001:db8:acad:a::3 | 64 | fe80::1
 #### Часть 3. Проверка сквозного соединения
 
 ### Решение
+#### Часть 1. Настройка топологии и конфигурация основных параметров маршрутизатора и коммутатора
+##### a. Настройте маршрутизатор.
+  * *enable*
+  * *show flash*
+  * *erase startup-config*
+  * *reload*
+  * *enable*
+  * *configure terminal*
+  * *no ip domain-lookup*
+  * *host R1*
+  * *service password-encryption*
+  * *enable secret class*
+  * *banner motd #*
+     *Unauthorized access is strictly prohibited. #* 
+  * *line con 0*
+    * *logging synchronous*
+    * *password cisco*
+    * *login*
+  * *exit*
+  * *line vty 0 4*
+    * *password cisco*
+    * *login*
+##### b. Настройте коммутатор.
+  * *enable*
+  * *show flash*
+  * *erase startup-config*
+  * *reload*
+  * *enable*
+  * *configure terminal*
+  * *no ip domain-lookup*
+  * *host S1*
+  * *service password-encryption*
+  * *enable secret class*
+  * *banner motd #*
+     *Unauthorized access is strictly prohibited. #* 
+  * *line con 0*
+    * *logging synchronous*
+    * *password cisco*
+    * *login*
+  * *exit*
+  * *line vty 0 4*
+    * *password cisco*
+    * *login*
