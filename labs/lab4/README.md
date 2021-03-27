@@ -60,3 +60,17 @@ PC-B | NIC | 2001:db8:acad:a::3 | 64 | fe80::1
   * *line vty 0 4*
     * *password cisco*
     * *login*
+
+### Часть 2. Ручная настройка IPv6-адресов
+#### a. Назначьте IPv6-адреса интерфейсам Ethernet на R1.
+  ##### *a. Назначьте глобальные индивидуальные IPv6-адреса, указанные в таблице адресации обоим интерфейсам Ethernet на R1.* -  
+  * S1(config)#interface vlan 1; 
+  * S1(config-if)#ipv6 address 2001:db8:acad:1::b/64
+  * S1(config-if)#no shutdown 
+  * R1(config)#interface gigabitEthernet 0/0/0
+  * R1(config-if)#ipv6 address 2001:db8:acad:a::1/64
+  * R1(config-if)#no shutdown 
+  * R1(config)#interface gigabitEthernet 0/0/1
+  * R1(config-if)#ipv6 address 2001:db8:acad:1::1/64
+  * R1(config-if)#no shutdown 
+
