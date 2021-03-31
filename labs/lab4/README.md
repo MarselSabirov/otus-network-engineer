@@ -101,7 +101,19 @@ PC-B | NIC | 2001:db8:acad:a::3 | 64 | fe80::1
 
 ### Часть 3. Проверка сквозного подключения
   #### С PC-A отправьте эхо-запрос на FE80::1. Это локальный адрес канала, назначенный G0/1 на R1.
+  ![3_1_ping_from_pcA_to_DG](https://user-images.githubusercontent.com/18709313/113211464-7c408780-9243-11eb-8daf-098fdc425e77.png)
   
+  #### Отправьте эхо-запрос на интерфейс управления S1 с PC-A.
+  ![3_2_ping_from_pcA_to_S1](https://user-images.githubusercontent.com/18709313/113211493-86fb1c80-9243-11eb-9e23-b0552461e59a.png)
   
-  ####
+  #### Введите команду tracert на PC-A, чтобы проверить наличие сквозного подключения к PC-B.
+  ![3_3_tracert_from_pcA_to_pcB](https://user-images.githubusercontent.com/18709313/113211613-b6118e00-9243-11eb-958c-731a4629b942.png)
+  
+  #### С PC-B отправьте эхо-запрос на PC-A. 
+ ![3_4_ping_from_pcB_to_pcA](https://user-images.githubusercontent.com/18709313/113211635-bc076f00-9243-11eb-9c63-793f67171006.png)
+  
+  #### С PC-B отправьте эхо-запрос на локальный адрес канала G0/0 на R1.
+  ![3_5_ping_from_pcB_to_DG](https://user-images.githubusercontent.com/18709313/113211659-c45faa00-9243-11eb-92ef-6a7c89ef1897.png)
+
+  
 
