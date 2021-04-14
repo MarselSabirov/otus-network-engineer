@@ -124,3 +124,20 @@ PC-A | NIC | 192.168.1.3 | 255.255.255.0 | 192.168.1.1
 
 ##### f. Измените способ входа в систему таким образом, чтобы использовалась проверка пользователей по локальной базе учетных записей.
 ![3_2_f_enable_local_ssh_S1](https://user-images.githubusercontent.com/18709313/114736695-4f48a600-9d14-11eb-98c2-8cd08cc21d19.png)
+
+#### Шаг 3. Установите соединение с коммутатором по протоколу SSH.
+![3_3_1_ssh_connecting_from_PC_A](https://user-images.githubusercontent.com/18709313/114737144-b9f9e180-9d14-11eb-9ffd-21906fc251e2.png)
+
+![3_3_2_ssh_connected_from_PC_A](https://user-images.githubusercontent.com/18709313/114737167-bebe9580-9d14-11eb-81b7-1b77860efd28.png)
+
+
+### Часть 4. Настройка протокола SSH с использованием интерфейса командной строки (CLI) коммутатора
+#### Шаг 1. Посмотрите доступные параметры для клиента SSH в Cisco IOS.
+![4_1_ssh_params_S1](https://user-images.githubusercontent.com/18709313/114738387-e9f5b480-9d15-11eb-97a1-b2b920287e00.png)
+
+#### Шаг 2. Установите с коммутатора S1 соединение с маршрутизатором R1 по протоколу SSH.
+![4_2_a_ssh_connect_from_S1_to_R1](https://user-images.githubusercontent.com/18709313/114738548-127dae80-9d16-11eb-8942-bc1acfd47fbf.png)
+![4_2_b_ssh_hack_from_S1_to_R1](https://user-images.githubusercontent.com/18709313/114739274-ba937780-9d16-11eb-9330-fa0f3adee241.png)
+![4_2_c_ssh_megahack_from_S1_to_R1](https://user-images.githubusercontent.com/18709313/114739290-bebf9500-9d16-11eb-8d0a-aac6c32e0c6d.png)
+![4_2_d_ssh_exit](https://user-images.githubusercontent.com/18709313/114739313-c1ba8580-9d16-11eb-8131-0eabcae37b68.png)
+
