@@ -45,7 +45,7 @@ PC-A | NIC | 192.168.1.3 | 255.255.255.0 | 192.168.1.1
     * *ip address 192.168.1.1 255.255.255.0*
     * *no sh*
   * *exit*
-  * reload *
+  * *reload*
 #### Шаг 4. Настройте компьютер PC-A.
 ![1_PC_A_ip_config](https://user-images.githubusercontent.com/18709313/114718582-1f91a200-9d04-11eb-9620-adcf398e7fd6.png)
 
