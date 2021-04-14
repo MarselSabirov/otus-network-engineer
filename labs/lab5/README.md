@@ -102,12 +102,12 @@ PC-A | NIC | 192.168.1.3 | 255.255.255.0 | 192.168.1.1
     * *password cisco*
     * *login*
   * *exit*
-  * interface vlan 1*
+  * *interface vlan 1*
     * *ip address 192.168.1.11 255.255.255.0*
     * *no sh*
     * *exit*
   * ip default-gateway 192.168.1.1 
-  * reload *
+  * *reload*
 
 #### Шаг 2. Настройте коммутатор для соединения по протоколу SSH.
 ##### *a. Настройте имя устройства, как указано в таблице адресации.* - hostname S1
