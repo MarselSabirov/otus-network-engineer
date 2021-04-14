@@ -78,7 +78,8 @@ PC-A | NIC | 192.168.1.3 | 255.255.255.0 | 192.168.1.1
 ![2_6_ssh_connected_from_PC_A](https://user-images.githubusercontent.com/18709313/114724604-ba40af80-9d09-11eb-9184-609f0bc6dc48.png)
 
 
-### Часть 3. Настройка коммутатора
+### Часть 3. Настройка коммутатора для доступа по протоколу SSH
+#### Шаг 1. Настройте основные параметры коммутатора.
 ##### Коммутатор:
 * *enable*
   * *erase startup-config*
@@ -99,4 +100,10 @@ PC-A | NIC | 192.168.1.3 | 255.255.255.0 | 192.168.1.1
   * *line vty 0 4*
     * *password cisco*
     * *login*
+  * *exit*
+  * interface vlan 1*
+    * *ip address 192.168.1.11 255.255.255.0*
+    * *no sh*
+    * *exit*
+  * ip default-gateway 192.168.1.1 
   * reload *
