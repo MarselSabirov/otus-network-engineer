@@ -141,3 +141,4 @@ PC-A | NIC | 192.168.1.3 | 255.255.255.0 | 192.168.1.1
 ![4_2_c_ssh_megahack_from_S1_to_R1](https://user-images.githubusercontent.com/18709313/114739290-bebf9500-9d16-11eb-8d0a-aac6c32e0c6d.png)
 ![4_2_d_ssh_exit](https://user-images.githubusercontent.com/18709313/114739313-c1ba8580-9d16-11eb-8131-0eabcae37b68.png)
 
+#### *Какие версии протокола SSH поддерживаются при использовании интерфейса командной строки?* - Поддерживаются две версии: Protocol Version 1, Protocol Version 2
