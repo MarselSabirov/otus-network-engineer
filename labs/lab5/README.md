@@ -107,3 +107,20 @@ PC-A | NIC | 192.168.1.3 | 255.255.255.0 | 192.168.1.1
     * *exit*
   * ip default-gateway 192.168.1.1 
   * reload *
+
+#### Шаг 2. Настройте коммутатор для соединения по протоколу SSH.
+##### *a. Настройте имя устройства, как указано в таблице адресации.* - hostname S1
+
+##### *b. Задайте домен для устройства.* - ip domain-name S1.domain
+
+##### c. Создайте ключ шифрования с указанием его длины.
+![3_2_c_generate_ssh_key_S1](https://user-images.githubusercontent.com/18709313/114736064-c7fb3280-9d13-11eb-9e7c-1c4f76a05955.png)
+
+##### d. Создайте имя пользователя в локальной базе учетных записей.
+![3_2_d_add_ssh_username_S1](https://user-images.githubusercontent.com/18709313/114736317-fd078500-9d13-11eb-91b8-3df92bdef108.png)
+
+##### e. Активируйте протоколы Telnet и SSH на линиях VTY.
+![3_2_e_activate_ssh_S1](https://user-images.githubusercontent.com/18709313/114736537-29230600-9d14-11eb-8000-80112b0b2480.png)
+
+##### f. Измените способ входа в систему таким образом, чтобы использовалась проверка пользователей по локальной базе учетных записей.
+![3_2_f_enable_local_ssh_S1](https://user-images.githubusercontent.com/18709313/114736695-4f48a600-9d14-11eb-98c2-8cd08cc21d19.png)
