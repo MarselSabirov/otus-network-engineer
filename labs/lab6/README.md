@@ -33,3 +33,29 @@ VLAN | Имя | Назначенный интерфейс
 
 ## Решение
 ### Часть 1. Создание сети и настройка основных параметров устройства
+#### Шаг 2. Настройте базовые параметры для маршрутизатора.
+* *enable*
+  * *erase startup-config*
+  * *reload*
+  * *enable*
+  * *configure terminal*
+  * *no ip domain-lookup*
+  * *host R1*
+  * *service password-encryption*
+  * *enable secret class*
+  * *banner motd #*
+     *Unauthorized access is strictly prohibited. #* 
+  * *line con 0*
+    * *logging synchronous*
+    * *password cisco*
+    * *login*
+  * *exit*
+  * *line vty 0 4*
+    * *password cisco*
+    * *login*
+  * *exit*
+  * interface gigabitEthernet 0/0/1.10
+    * *ip address 192.168.10.1 255.255.255.0*
+    * *no sh*
+  * *exit*
+  * *reload*
