@@ -58,4 +58,31 @@ VLAN | Имя | Назначенный интерфейс
     * *ip address 192.168.10.1 255.255.255.0*
     * *no sh*
   * *exit*
+  * *exit*
   * *reload*
+#### Шаг 3. Настройте базовые параметры каждого коммутатора.
+* *enable*
+  * *erase startup-config*
+  * *reload*
+  * *enable*
+  * *configure terminal*
+  * *no ip domain-lookup*
+  * *host S1*
+  * *service password-encryption*
+  * *enable secret class*
+  * *banner motd #*
+     *Unauthorized access is strictly prohibited. #* 
+  * *line con 0*
+    * *logging synchronous*
+    * *password cisco*
+    * *login*
+  * *exit*
+  * *line vty 0 4*
+    * *password cisco*
+    * *login*
+  * *exit*
+  * *exit*
+  * *reload*
+#### Шаг 4. Настройте узлы ПК.
+![1_4_pcA_ip](https://user-images.githubusercontent.com/18709313/125963046-607dfd7a-10cd-4b5a-a757-8f47e67a05ea.png)
+![1_4_pcB_ip](https://user-images.githubusercontent.com/18709313/125963064-cd56e5c5-bf53-4e7c-9346-018e582e379f.png)
