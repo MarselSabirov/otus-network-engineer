@@ -86,3 +86,23 @@ VLAN | Имя | Назначенный интерфейс
 #### Шаг 4. Настройте узлы ПК.
 ![1_4_pcA_ip](https://user-images.githubusercontent.com/18709313/125963046-607dfd7a-10cd-4b5a-a757-8f47e67a05ea.png)
 ![1_4_pcB_ip](https://user-images.githubusercontent.com/18709313/125963064-cd56e5c5-bf53-4e7c-9346-018e582e379f.png)
+
+### Часть 2. Создание сетей VLAN и назначение портов коммутатора
+#### Шаг 1. Создайте сети VLAN на коммутаторах.
+##### b. Настройте интерфейс управления и шлюз по умолчанию на каждом коммутаторе, используя информацию об IP-адресе в таблице адресации.
+* *enable*
+  * *configure terminal*
+  * *interface vlan 10*
+  *  *ip address 192.168.10.11 255.255.255.0*
+  *  *no sh*
+  *  *exit*
+  * *ip default-gateway 192.168.10.1*
+  * *interface vlan 20*
+  *  *description Sales*
+  *  *no sh*
+  *  *exit*
+  * *interface vlan 999*
+  *  *description Parking_Lot*
+  *  *no sh*
+  *  *exit*
+  *  
