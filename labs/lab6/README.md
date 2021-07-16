@@ -93,16 +93,33 @@ VLAN | Имя | Назначенный интерфейс
 * *enable*
   * *configure terminal*
   * *interface vlan 10*
-  *  *ip address 192.168.10.11 255.255.255.0*
-  *  *no sh*
-  *  *exit*
+    * *ip address 192.168.10.11 255.255.255.0*
+    * *no sh*
+    * *exit*
   * *ip default-gateway 192.168.10.1*
   * *interface vlan 20*
-  *  *description Sales*
-  *  *no sh*
-  *  *exit*
+    * *description Sales*
+    * *no sh*
+    * *exit*
   * *interface vlan 999*
-  *  *description Parking_Lot*
-  *  *no sh*
-  *  *exit*
+    * *description Parking_Lot*
+    * *no sh*
+    * *exit*
+  *  
+
+* *enable*
+  * *configure terminal*
+  * *interface vlan 10*
+    * *ip address 192.168.10.12 255.255.255.0*
+    * *no sh*
+    * *exit*
+  * *ip default-gateway 192.168.10.1*
+  * *interface vlan 30*
+    * *description Operations*
+    * *no sh*
+    * *exit*
+  * *interface vlan 999*
+    * *description Parking_Lot*
+    * *no sh*
+    * *exit*
   *  
