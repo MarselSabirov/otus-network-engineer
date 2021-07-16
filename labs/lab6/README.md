@@ -98,14 +98,22 @@ VLAN | Имя | Назначенный интерфейс
     * *exit*
   * *ip default-gateway 192.168.10.1*
   * *interface vlan 20*
-    * *description Sales*
     * *no sh*
     * *exit*
   * *interface vlan 999*
-    * *description Parking_Lot*
     * *no sh*
-    * *exit*
-  *  
+    * *exit* 
+  * *vlan 10*
+    * *name Upravlenie*
+    * *end*
+  * *conf t*
+  * *vlan 20*
+    * *name Sales*
+    * *end*
+  * *conf t*
+  * *vlan 999*
+    * *name Parking_Lot*  
+    * *end*  
 
 * *enable*
   * *configure terminal*
@@ -115,11 +123,19 @@ VLAN | Имя | Назначенный интерфейс
     * *exit*
   * *ip default-gateway 192.168.10.1*
   * *interface vlan 30*
-    * *description Operations*
     * *no sh*
     * *exit*
   * *interface vlan 999*
-    * *description Parking_Lot*
     * *no sh*
     * *exit*
-  *  
+  * *vlan 10*
+    * *name Upravlenie*
+    * *end*
+  * *conf t*
+  * *vlan 30*
+    * *name Operations*
+    * *end*
+  * *conf t*
+  * *vlan 999*
+    * *name Parking_Lot*  
+    * *end*  
